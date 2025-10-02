@@ -1,0 +1,35 @@
+body {
+        display: flex;
+            height: 100vh;
+                justify-content: center;
+                    align-items: center;
+                        margin: 0;
+                            background: linear-gradient(135deg, #4A90E2, #50E3C2);
+                                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                                }
+
+                                button {
+                                    background-color: #1E90FF;
+                                        color: white;
+                                            border: none;
+                                                padding: 18px 45px;
+                                                    font-size: 22px;
+                                                        border-radius: 30px;
+                                                            cursor: pointer;
+                                                                box-shadow: 0 8px 15px rgba(30, 144, 255, 0.3);
+                                                                    transition: all 0.3s ease;
+                                                                        font-weight: 600;
+                                                                            letter-spacing: 1.2px;
+                                                                            }
+
+                                                                            button:hover {
+                                                                                background-color: #105FBD;
+                                                                                    box-shadow: 0 12px 20px rgba(16, 95, 189, 0.5);
+                                                                                        transform: translateY(-3px);
+                                                                                        }
+
+                                                                                        button:active {
+                                                                                            transform: translateY(-1px);
+                                                                                                box-shadow: 0 8px 12px rgba(16, 95, 189, 0.4);
+                                                                                                }
+}
